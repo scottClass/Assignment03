@@ -13,6 +13,16 @@ public class Problem6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int[] array = new int[101];
+        
+        for(int i = 0; i < array.length; i ++) 
+        {
+            array[i] = i;
+        }
+        
+        
+        
+        
+        
     }
 }
