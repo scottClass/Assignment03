@@ -24,6 +24,7 @@ public class Problem7 {
                 
                     int j = 1;
                     while(a.charAt(j) == b.charAt(j) && !a.equals(b)) {
+                        System.out.println("now");
                         String sub = a.substring(j);
                         String sub2 = b.substring(j);
                         compare = sub.compareTo(sub2);
