@@ -23,8 +23,7 @@ public class Problem7 {
                     int compare = a.compareTo(b);
                 
                     int j = 1;
-                    while(a.charAt(j) == b.charAt(j) && !a.equals(b)) {
-                        System.out.println("now");
+                    while(compare == 0 && a.charAt(j) == b.charAt(j) && !a.equals(b)) {
                         String sub = a.substring(j);
                         String sub2 = b.substring(j);
                         compare = sub.compareTo(sub2);
