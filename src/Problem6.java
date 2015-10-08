@@ -15,59 +15,57 @@ public class Problem6 {
         int place = a.length - 1;
 
 
-        int thing = 90;
-        int thing1 = 80;
-        int thing2 = 70;
-        int thing3 = 60;
-        int thing4 = 50;
-        int thing5 = 40;
-        int thing6 = 30;
-        int thing7 = 20;
-        int thing8 = 10;
-        int thing9 = 0;
+        int thing = 100;
+        int thing1 = 90;
+        int thing2 = 80;
+        int thing3 = 70;
+        int thing4 = 60;
+        int thing5 = 50;
+        int thing6 = 40;
+        int thing7 = 30;
+        int thing8 = 20;
+        int thing9 = 10;
 
         for (int i = 0; i < a.length; i++) {
             if (a[i] >= 0 && a[i] < 10) {
                 bucket[thing] = a[i];
-                thing++;
+                thing--;
             }
-            
-            
             if (a[i] >= 10 && a[i] < 20) {
                 bucket[thing1] = a[i];
-                thing1++;
+                thing1--;
             }
             if (a[i] >= 20 && a[i] < 30) {
                 bucket[thing2] = a[i];
-                thing2++;
+                thing2--;
             }
             if (a[i] >= 30 && a[i] < 40) {
                 bucket[thing3] = a[i];
-                thing3++;
+                thing3--;
             }
             if (a[i] >= 40 && a[i] < 50) {
                 bucket[thing4] = a[i];
-                thing4++;
+                thing4--;
             }
             if (a[i] >= 50 && a[i] < 60) {
                 bucket[thing5] = a[i];
-                thing5++;
+                thing5--;
             }
             if (a[i] >= 60 && a[i] < 70) {
                 bucket[thing6] = a[i];
-                thing6++;
+                thing6--;
             }
             if (a[i] >= 70 && a[i] < 80) {
                 bucket[thing7] = a[i];
-                thing7++;
+                thing7--;
             }
             if (a[i] >= 80 && a[i] < 90) {
                 bucket[thing8] = a[i];
-                thing8++;
+                thing8--;
             }
             if (a[i] >= 90 && a[i] <= 100) {
                 bucket[thing9] = a[i];
-                thing9++;
+                thing9--;
             }
         }
         
